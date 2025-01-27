@@ -4,7 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-servers',
   standalone: false,
   
-  templateUrl: './servers.component.html',
+  template: `
+    <app-server></app-server>
+    <app-server></app-server>
+  `,
   styleUrl: './servers.component.css'
 })
 export class ServersComponent {
