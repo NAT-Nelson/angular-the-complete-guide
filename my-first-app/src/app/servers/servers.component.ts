@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-servers',
+  // selector: '[app-servers]',
+  selector: '.app-servers',
   standalone: false,
   
   template: `
