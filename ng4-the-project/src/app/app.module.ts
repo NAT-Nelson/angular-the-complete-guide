@@ -13,6 +13,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     RecipesComponent,
     RecipeListComponent,
     RecipeDetailComponent,
@@ -21,8 +22,7 @@ import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-ed
     ShoppingEditComponent
   ],
   imports: [
-    BrowserModule,
-    HeaderComponent
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
