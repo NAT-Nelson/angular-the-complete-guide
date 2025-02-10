@@ -4,10 +4,11 @@
         <hr>
         <ul class="list-group">
             <a
-            class="list-group-item"
+            class="list-group-item d-flex justify-content-between"
             style="cursor:pointer"
             *ngFor="let ingredient of ingredients">
-            {{ ingredient.name }} ({{ ingredient.amount }}) 
+                <span>{{ ingredient.name }}</span>
+                <span>{{ ingredient.amount }}</span>
             </a>
         </ul>
     </div>
